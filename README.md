@@ -13,7 +13,7 @@ app.get("/stat", (_, res: Response) => {
 });
 
 app.get("/about", (_, res: Response) => {
-  const name = "Maxim Beryanov";
+  const name = "Alexey Ratkovskiy";
   const html = `<h3>Hello, ${name}!</h3>`;
 
   res.writeHead(200, {'Content-Type': 'text/html'});
